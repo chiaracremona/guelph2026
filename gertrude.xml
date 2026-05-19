@@ -51,7 +51,7 @@
 	"id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/gertrude.xml?person_annotation_20260519145625694",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-19T18:56:25.694Z",
-	"dcterms:modified": "2026-05-19T18:56:25.694Z",
+	"dcterms:modified": "2026-05-19T18:57:04.265Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaracremona",
 		"@type": [
@@ -92,7 +92,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.2.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -132,7 +133,7 @@
             <l>But mad in craft.</l>
             </lg>
             </sp>
-            <byline><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048">William Shakespeare</persName>, <title subtype="tragedy" type="play">Hamlet</title> (c. 1600, Act III, sc. iv)</byline>
+            <byline><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" cert="high" type="real">William Shakespeare</persName>, <title subtype="tragedy" type="play">Hamlet</title> (c. 1600, Act III, sc. iv)</byline>
          </div>
                   <div type="response">
                      <p>I always thought it was a mistake, calling you Hamlet. I mean, what kind of name is that for a young boy? It was your father's idea. Nothing would do but that you had to be called after him? Selfish. The other kids at school used to tease the life out of you. The nicknames! And those terrible jokes about pork. </p>
