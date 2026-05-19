@@ -131,7 +131,7 @@
 	"id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/gertrude.xml?work_annotation_20260519145812124",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-19T18:58:12.124Z",
-	"dcterms:modified": "2026-05-19T18:59:14.009Z",
+	"dcterms:modified": "2026-05-19T19:01:33.121Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/chiaracremona",
 		"@type": [
@@ -213,7 +213,7 @@
             <l>But mad in craft.</l>
             </lg>
             </sp>
-            <byline><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" cert="high" type="real">William Shakespeare</persName>, <title subtype="tragedy" type="play" cert="high" key="Hamlet" ref="http://dbpedia.org/resource/Hamlet">Hamlet</title> (c. 1600, Act III, sc. iv)</byline>
+            <byline><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" cert="high" type="real">William Shakespeare</persName>, <title subtype="tragedy" type="play" cert="high" key="Hamlet" ref="http://dbpedia.org/resource/Hamlet" level="m">Hamlet</title> (c. 1600, Act III, sc. iv)</byline>
          </div>
                   <div type="response">
                      <p>I always thought it was a mistake, calling you Hamlet. I mean, what kind of name is that for a young boy? It was your father's idea. Nothing would do but that you had to be called after him? Selfish. The other kids at school used to tease the life out of you. The nicknames! And those terrible jokes about pork. </p>
