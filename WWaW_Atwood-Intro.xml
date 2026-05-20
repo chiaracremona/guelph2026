@@ -25,7 +25,7 @@
 					<lb facs="#facs_2_l_5" n="N005"/>one is unisexual. That the editors have chosen to bring together,
 					<lb facs="#facs_2_l_6" n="N006"/>within the same covers, fifteen writers as diverse as <persName key="Dorothy Parker" ref="http://www.wikidata.org/entity/Q270707" ana="webannotation:http://temp.lincsproject.ca/va2jy3zai9U">Dorothy Parker</persName>
 					<lb facs="#facs_2_l_7" n="N007"/>and <persName key="Nadine Gordimer" ref="http://www.wikidata.org/entity/Q47619" ana="webannotation:http://temp.lincsproject.ca/FPtFiin6tu2">Nadine Gordimer</persName>, <persName key="Marianne Moore" ref="http://www.wikidata.org/entity/Q278495" ana="webannotation:http://temp.lincsproject.ca/5YKsWranyno">Marianne Moore</persName> and <persName key="Rebecca West" ref="http://www.wikidata.org/entity/Q236669" ana="webannotation:http://temp.lincsproject.ca/7wXvSlPTexj">Rebecca West</persName>, Isak
-					<lb facs="#facs_2_l_8" n="N008"/><persName key="Karen Blixen" ref="http://www.wikidata.org/entity/Q182804" ana="webannotation:http://temp.lincsproject.ca/5ueemMn9J88">Dinesen</persName> and <persName key="Lillian Hellman" ref="http://www.wikidata.org/entity/Q233701" ana="webannotation:http://temp.lincsproject.ca/WigrBXApmgJ">Lillian Hellman</persName>, Mary McCarthy and Katherine
+					<lb facs="#facs_2_l_8" n="N008"/><persName key="Karen Blixen" ref="http://www.wikidata.org/entity/Q182804" ana="webannotation:http://temp.lincsproject.ca/5ueemMn9J88">Dinesen</persName> and <persName key="Lillian Hellman" ref="http://www.wikidata.org/entity/Q233701" ana="webannotation:http://temp.lincsproject.ca/WigrBXApmgJ">Lillian Hellman</persName>, <persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/mj3iQcG4pjc">Mary McCarthy</persName> and Katherine
 					<lb facs="#facs_2_l_9" n="N009"/>Anne Porter, over what, in some cases, would doubtless be their
 					<lb facs="#facs_2_l_10" n="N010"/>dead bodies, merely because they share a double-X chronosome,
 					<lb facs="#facs_2_l_11" n="N011"/>is not due to a sudden mental aberration. Rather it has been the
@@ -202,7 +202,7 @@
 				<p>
 					<lb facs="#facs_6_l_27" n="N001"/>Katherine Anne Porter’s reply—“I think that’S very true and
 					<lb facs="#facs_6_l_28" n="N002"/>very right"—is by no means the only one possible. Some, such
-					<lb facs="#facs_6_l_29" n="N003"/>as Mary McCarthy, are clearly impatient with the question itself.
+					<lb facs="#facs_6_l_29" n="N003"/>as <persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/0lmtmdFNbl1">Mary McCarthy</persName>, are clearly impatient with the question itself.
 					<lb facs="#facs_6_l_30" n="N004"/>McCarthy accepts some version of the "masculine" versus the
 					<lb facs="#facs_6_l_31" n="N005"/>"feminine" sensibility, but assigns herself firmly with the former.
 				</p>
@@ -1332,6 +1332,184 @@
         "type": "crm:E21_Person",
         "label": "Lillian Hellman",
         "description": "American dramatist and screenwriter (1905-1984)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/mj3iQcG4pjc">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/mj3iQcG4pjc",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:04:29.090Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/aYHlSZhNU9q",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/aYHlSZhNU9q/selector/textPosition/YoCKlbFocNc",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 483,
+                "end": 496,
+                "refinedBy": {
+                    "id": "/target/aYHlSZhNU9q/selector/textQuote/B7UwKZLS3L4",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mary McCarthy",
+                    "prefix": " That the editors have chosen to bring together,\n\t\t\t\t\twithin the same covers, fifteen writers as diverse as Dorothy Parker\n\t\t\t\t\tand Nadine Gordimer, Marianne Moore and Rebecca West, Isak\n\t\t\t\t\tDinesen and Lillian Hellman,",
+                    "suffix": "and Katherine\n\t\t\t\t\tAnne Porter, over what, in some cases, would doubtless be their\n\t\t\t\t\tdead bodies, merely because they share a double-X chronosome,\n\t\t\t\t\tis not due to a sudden mental aberration"
+                }
+            },
+            {
+                "id": "/target/aYHlSZhNU9q/selector/css/aSIibzFcj9o",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/mj3iQcG4pjc]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q268147",
+        "type": "crm:E21_Person",
+        "label": "Mary McCarthy",
+        "description": "American writer (1912–1989)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/0lmtmdFNbl1">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/0lmtmdFNbl1",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:04:29.623Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/UAGU5qoLaSc",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/UAGU5qoLaSc/selector/textPosition/SdSWtxKzkq3",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9475,
+                "end": 9488,
+                "refinedBy": {
+                    "id": "/target/UAGU5qoLaSc/selector/textQuote/o96ntOatdqq",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mary McCarthy",
+                    "prefix": " Some, such\n\t\t\t\t\tas",
+                    "suffix": " are clearly impatient with the question itself"
+                }
+            },
+            {
+                "id": "/target/UAGU5qoLaSc/selector/css/DFyaqgWV7IR",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/0lmtmdFNbl1]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q268147",
+        "type": "crm:E21_Person",
+        "label": "Mary McCarthy",
+        "description": "American writer (1912–1989)"
     },
     "P2_has_type": [
         "oa:identifying"
