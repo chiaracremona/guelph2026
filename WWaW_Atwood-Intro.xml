@@ -78,7 +78,7 @@
 					<lb facs="#facs_3_l_18" n="N008"/>were male, with a woman dotted here and there for decorative
 					<lb facs="#facs_3_l_19" n="N009"/>effect, like parsley. <persName key="Jan Morris" ref="http://www.wikidata.org/entity/Q3395844" ana="webannotation:http://temp.lincsproject.ca/7eSsmluhaEH">Jan Morris</persName> said that she was in the process of
 					<lb facs="#facs_3_l_20" n="N010"/>transcending gender and was aiming at becoming a horse, to
-					<lb facs="#facs_3_l_21" n="N011"/>which Nayantara Sahgal replied that she hoped it was an English
+					<lb facs="#facs_3_l_21" n="N011"/>which <persName key="Nayantara Sahgal" ref="http://www.wikidata.org/entity/Q448399" ana="webannotation:http://temp.lincsproject.ca/Rb1jo7KYzGa">Nayantara Sahgal</persName> replied that she hoped it was an English
 					<lb facs="#facs_3_l_22" n="N012"/>horse, since in some other, poorer countries, horses were not
 					<lb facs="#facs_3_l_23" n="N013"/>treated very well. Which underlined, for all of us, that there are
 					<lb facs="#facs_3_l_24" n="N014"/>categories other than male and female worth considering.
@@ -116,7 +116,7 @@
 					<lb facs="#facs_4_l_9" n="N007"/>them jumpy.
 				</p>
 				<p>
-					<lb facs="#facs_4_l_12" n="N001"/>Virginia Woolf may have been right about the androgynous
+					<lb facs="#facs_4_l_12" n="N001"/><persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" ana="webannotation:http://temp.lincsproject.ca/jWGfmSvWbhU">Virginia Woolf</persName> may have been right about the androgynous
 					<lb facs="#facs_4_l_13" n="N002"/>nature of the artist, but she was right also about the differences
 					<lb facs="#facs_4_l_14" n="N003"/>in social situation these androgynous artists are certain to en-
 					<lb facs="#facs_4_l_15" n="N004"/>counter. We may agree with <persName key="Nadine Gordimer" ref="http://www.wikidata.org/entity/Q47619" ana="webannotation:http://temp.lincsproject.ca/KSsNAcxN9lm">Nadine Gordimer</persName> when she says,
@@ -1955,6 +1955,184 @@
         "type": "crm:E21_Person",
         "label": "Nayantara Sahgal",
         "description": "Indian writer (born 1927)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Rb1jo7KYzGa">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Rb1jo7KYzGa",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:06:50.703Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/4qUv866alkc",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/4qUv866alkc/selector/textPosition/0jIyY8v9LHB",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3375,
+                "end": 3391,
+                "refinedBy": {
+                    "id": "/target/4qUv866alkc/selector/textQuote/wBtg0PlgLzo",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Nayantara Sahgal",
+                    "prefix": " Jan Morris said that she was in the process of\n\t\t\t\t\ttranscending gender and was aiming at becoming a horse, to\n\t\t\t\t\twhich",
+                    "suffix": "replied that she hoped it was an English\n\t\t\t\t\thorse, since in some other, poorer countries, horses were not\n\t\t\t\t\ttreated very well"
+                }
+            },
+            {
+                "id": "/target/4qUv866alkc/selector/css/gTyAAHmIpjP",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Rb1jo7KYzGa]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q448399",
+        "type": "crm:E21_Person",
+        "label": "Nayantara Sahgal",
+        "description": "Indian writer (born 1927)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/jWGfmSvWbhU">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/jWGfmSvWbhU",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:07:09.316Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/OATla1r4Dpn",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/OATla1r4Dpn/selector/textPosition/sS2VI7721nR",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 5162,
+                "end": 5176,
+                "refinedBy": {
+                    "id": "/target/OATla1r4Dpn/selector/textQuote/aBIdctSIiTo",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Virginia Woolf",
+                    "prefix": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t",
+                    "suffix": "may have been right about the androgynous\n\t\t\t\t\tnature of the artist, but she was right also about the differences\n\t\t\t\t\tin social situation these androgynous artists are certain to en-\n\t\t\t\t\tcounter"
+                }
+            },
+            {
+                "id": "/target/OATla1r4Dpn/selector/css/mTbkncOdHz5",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/jWGfmSvWbhU]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q40909",
+        "type": "crm:E21_Person",
+        "label": "Virginia Woolf",
+        "description": "English modernist writer (1882–1941)"
     },
     "P2_has_type": [
         "oa:identifying"
