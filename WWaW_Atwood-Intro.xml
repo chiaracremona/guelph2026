@@ -327,7 +327,7 @@
 					<lb facs="#facs_9_l_6" n="N006"/>From <persName key="Joyce Carol Oates" ref="http://www.wikidata.org/entity/Q217557" ana="webannotation:http://temp.lincsproject.ca/GKzwsCwdBEu">Joyce Carol Oates</persName>, one of the youngest writers in this group:
 				</p>
 				<p>
-					<lb facs="#facs_9_l_10" n="N001"/>I take seriously <persName key="Gustave Flaubert" ref="http://www.wikidata.org/entity/Q43444" ana="webannotation:http://temp.lincsproject.ca/728zU7cBvf9">Flaubert</persName>'s statement must love
+					<lb facs="#facs_9_l_10" n="N001"/>I take seriously Flaubert's statement must love
 					<lb facs="#facs_9_l_11" n="N002"/>one another in our art as the mystics love another in
 					<lb facs="#facs_9_l_12" n="N003"/>God. By honoring one another's creation we honor some-
 					<lb facs="#facs_9_l_13" n="N004"/>thing that deeply connected us all, and beyond us
@@ -5523,95 +5523,6 @@
         "type": "crm:E21_Person",
         "label": "Judith Rossner",
         "description": "American novelist (1935-2005)"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/728zU7cBvf9">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/728zU7cBvf9",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-05-20T19:20:45.675Z",
-    "creator": {
-        "id": "https://github.com/chiaracremona",
-        "type": "crm:E21_Person",
-        "name": "Chiara Cremona"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.2.1"
-    },
-    "target": {
-        "id": "/target/JzGOXRKSOWg",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "WWaW_Atwood-Intro"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/JzGOXRKSOWg/selector/textPosition/2dXsNN8Kny9",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 15541,
-                "end": 15549,
-                "refinedBy": {
-                    "id": "/target/JzGOXRKSOWg/selector/textQuote/6jSgfLD07si",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Flaubert",
-                    "prefix": "\n\t\t\t\t\tFrom Joyce Carol Oates, one of the youngest writers in this group:\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tI take seriously",
-                    "suffix": "s statement must love\n\t\t\t\t\tone another in our art as the mystics love another in\n\t\t\t\t\tGod"
-                }
-            },
-            {
-                "id": "/target/JzGOXRKSOWg/selector/css/BOxjg5UxcUz",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/728zU7cBvf9]"
-            }
-        ]
-    },
-    "body": {
-        "id": "http://www.wikidata.org/entity/Q43444",
-        "type": "crm:E21_Person",
-        "label": "Gustave Flaubert",
-        "description": "French novelist (1821–1880)"
     },
     "P2_has_type": [
         "oa:identifying"
