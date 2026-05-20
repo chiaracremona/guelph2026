@@ -342,7 +342,7 @@
 					<lb facs="#facs_9_l_18" n="N003"/>have. (P. 119)
 				</p>
 				<p>
-					<lb facs="#facs_9_l_19" n="N001"/>MARGARET ATWOOD, 1988
+					<lb facs="#facs_9_l_19" n="N001"/><persName key="Margaret Atwood" ref="http://www.wikidata.org/entity/Q183492" ana="webannotation:http://temp.lincsproject.ca/6ZwZAKPTqzS">MARGARET ATWOOD</persName>, 1988
 				</p>
 			</div>
 		</body>
@@ -5434,6 +5434,95 @@
         "type": "crm:E21_Person",
         "label": "Gustave Flaubert",
         "description": "French novelist (1821–1880)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/6ZwZAKPTqzS">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/6ZwZAKPTqzS",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:20:54.697Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/Iygq6Qxci77",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Iygq6Qxci77/selector/textPosition/gPqhR8Ho0rN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 15998,
+                "end": 16013,
+                "refinedBy": {
+                    "id": "/target/Iygq6Qxci77/selector/textQuote/C6wdfRIKQIK",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "MARGARET ATWOOD",
+                    "prefix": " 119)\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t",
+                    "suffix": ""
+                }
+            },
+            {
+                "id": "/target/Iygq6Qxci77/selector/css/gRi4Axy2uq6",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/6ZwZAKPTqzS]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q183492",
+        "type": "crm:E21_Person",
+        "label": "Margaret Atwood",
+        "description": "Canadian poet, novelist, literary critic, essayist, teacher, environmental activist, pépiniériste and inventor (born 1939)"
     },
     "P2_has_type": [
         "oa:identifying"
