@@ -215,7 +215,7 @@
 					<lb facs="#facs_6_l_22" n="N001"/>MCCARTHY: Some women writers make it. I mean, there's
 					<lb facs="#facs_6_l_23" n="N002"/>a certain kind of woman writer who's a capital W, capital
 					<lb facs="#facs_6_l_24" n="N003"/>W. <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" ana="webannotation:http://temp.lincsproject.ca/ey6baWEM3IF">Virginia Woolf</persName> certainly was one, and <persName key="Katherine Mansfield" ref="http://www.wikidata.org/entity/Q270632" ana="webannotation:http://temp.lincsproject.ca/4Ri6ggtGq9Z">Katherine Mans-
-					<lb facs="#facs_6_l_25" n="N004"/>field</persName> was one, and Elizabeth Bowen is one. Katherine Anne
+					<lb facs="#facs_6_l_25" n="N004"/>field</persName> was one, and <persName key="Bowen, Elizabeth, 1899-1973." ref="http://viaf.org/viaf/19674925" ana="webannotation:http://temp.lincsproject.ca/lnxg18qWOWH">Elizabeth Bowen</persName> is one. Katherine Anne
 					<lb facs="#facs_6_l_26" n="N005"/>Porter? Don't think she really is—I mean, her writing is
 					<lb facs="#facs_6_l_32" n="N006"/>certainly very feminine, but I would say that there wasn't
 					<lb facs="#facs_6_l_33" n="N007"/>this “WW” business in <persName key="Porter, Katherine Anne, 1890-1980." ref="http://viaf.org/viaf/56620604" ana="webannotation:http://temp.lincsproject.ca/mTkwN5OJbaX">Katherine Anne Porter</persName>. Who else?
@@ -3557,6 +3557,95 @@
         "type": "crm:E21_Person",
         "label": "Katherine Mansfield",
         "description": "New Zealand author (1888–1923)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/lnxg18qWOWH">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/lnxg18qWOWH",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:14:46.510Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/x3U0KjNuxFg",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/x3U0KjNuxFg/selector/textPosition/HtG6aGULSNS",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 10032,
+                "end": 10047,
+                "refinedBy": {
+                    "id": "/target/x3U0KjNuxFg/selector/textQuote/7YTZaFvcsBQ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Elizabeth Bowen",
+                    "prefix": " Virginia Woolf certainly was one, and Katherine Mans-\n\t\t\t\t\tfield was one, and",
+                    "suffix": "is one"
+                }
+            },
+            {
+                "id": "/target/x3U0KjNuxFg/selector/css/LEuB2ytKjtJ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/lnxg18qWOWH]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/19674925",
+        "type": "crm:E21_Person",
+        "label": "Bowen, Elizabeth, 1899-1973.",
+        "description": "Bowen, Elizabeth"
     },
     "P2_has_type": [
         "oa:identifying"
