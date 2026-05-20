@@ -167,7 +167,7 @@
 				<p>
 					<lb facs="#facs_5_l_8" n="N001"/>Not least among perceived social differences is the difficulty
 					<lb facs="#facs_5_l_9" n="N002"/>woman writers have experienced in being taken "altogether
-					<lb facs="#facs_5_l_10" n="N003"/>seriously" as legitimate artists. Ezra Pound, writing in the second
+					<lb facs="#facs_5_l_10" n="N003"/>seriously" as legitimate artists. <persName key="Ezra Pound" ref="http://www.wikidata.org/entity/Q163366" ana="webannotation:http://temp.lincsproject.ca/8I0NGYOD8ar">Ezra Pound</persName>, writing in the second
 					<lb facs="#facs_5_l_11" n="N004"/>decade of this century, spoke for many male authors and critics
 					<lb facs="#facs_5_l_21" n="N005"/>before and since: "I distrust the 'female artist.' . . . Not wildly
 					<lb facs="#facs_5_l_14" n="N006"/>anti-feminist we are yet to be convinced that any woman ever
@@ -2756,6 +2756,95 @@
         "type": "crm:E21_Person",
         "label": "O'Connor, Flannery, 1925-1964.",
         "description": "Oconnor, Flannery"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/8I0NGYOD8ar">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/8I0NGYOD8ar",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:09:24.066Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/ydwXOWEUqTQ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ydwXOWEUqTQ/selector/textPosition/lLyPuwkUeBk",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 7799,
+                "end": 7809,
+                "refinedBy": {
+                    "id": "/target/ydwXOWEUqTQ/selector/textQuote/fBZHbfLkwCy",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Ezra Pound",
+                    "prefix": "",
+                    "suffix": " writing in the second\n\t\t\t\t\tdecade of this century, spoke for many male authors and critics\n\t\t\t\t\tbefore and since: \"I distrust the 'female artist"
+                }
+            },
+            {
+                "id": "/target/ydwXOWEUqTQ/selector/css/jeeG0dE1R2Z",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/8I0NGYOD8ar]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q163366",
+        "type": "crm:E21_Person",
+        "label": "Ezra Pound",
+        "description": "American poet and critic (1885–1972)"
     },
     "P2_has_type": [
         "oa:identifying"
