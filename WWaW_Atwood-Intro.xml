@@ -248,7 +248,7 @@
 					<lb facs="#facs_7_l_9" n="N003"/>than being restrained by her . . .
 				</p>
 				<p>
-					<lb facs="#facs_7_l_6" n="N001"/>OZICK: Parochial temporary commitments. . . . A writer
+					<lb facs="#facs_7_l_6" n="N001"/><persName key="Cynthia Ozick" ref="http://www.wikidata.org/entity/Q444849" ana="webannotation:http://temp.lincsproject.ca/YEI0isfdPt9">OZICK</persName>: Parochial temporary commitments. . . . A writer
 					<lb facs="#facs_7_l_33" n="N002"/>is someone born with a gift. An athlete can run. A painter
 					<lb facs="#facs_7_l_34" n="N003"/>can paint. A writer has a facility with words. A good writer
 					<lb facs="#facs_7_l_37" n="N004"/>can also think. Isn't that enough to define a writer by?
@@ -4180,6 +4180,95 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/IQ58XXcLM8w]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q444849",
+        "type": "crm:E21_Person",
+        "label": "Cynthia Ozick",
+        "description": "American writer (born 1928)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/YEI0isfdPt9">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/YEI0isfdPt9",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:28:14.978Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/b4d50bCh1Qi",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/b4d50bCh1Qi/selector/textPosition/65hm4eHLADl",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 11137,
+                "end": 11142,
+                "refinedBy": {
+                    "id": "/target/b4d50bCh1Qi/selector/textQuote/SgWsLb4Dsxd",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "OZICK",
+                    "prefix": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t",
+                    "suffix": " Parochial temporary commitments"
+                }
+            },
+            {
+                "id": "/target/b4d50bCh1Qi/selector/css/ehRM0zdYtSO",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/YEI0isfdPt9]"
             }
         ]
     },
