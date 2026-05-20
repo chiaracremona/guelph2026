@@ -212,7 +212,7 @@
 					<lb facs="#facs_6_l_9" n="N003"/>made?
 				</p>
 				<p>
-					<lb facs="#facs_6_l_22" n="N001"/>MCCARTHY: Some women writers make it. I mean, there's
+					<lb facs="#facs_6_l_22" n="N001"/><persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/xESsPVvkLZT">MCCARTHY</persName>: Some women writers make it. I mean, there's
 					<lb facs="#facs_6_l_23" n="N002"/>a certain kind of woman writer who's a capital W, capital
 					<lb facs="#facs_6_l_24" n="N003"/>W. <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" ana="webannotation:http://temp.lincsproject.ca/ey6baWEM3IF">Virginia Woolf</persName> certainly was one, and <persName key="Katherine Mansfield" ref="http://www.wikidata.org/entity/Q270632" ana="webannotation:http://temp.lincsproject.ca/4Ri6ggtGq9Z">Katherine Mans-
 					<lb facs="#facs_6_l_25" n="N004"/>field</persName> was one, and <persName key="Elizabeth Bowen" ref="http://www.wikidata.org/entity/Q235308" ana="webannotation:http://temp.lincsproject.ca/Vtj9UrKDgbh">Elizabeth Bowen</persName> is one. <persName key="Katherine Anne Porter" ref="http://www.wikidata.org/entity/Q236958" ana="webannotation:http://temp.lincsproject.ca/tNgKBqwqtYb">Katherine Anne
@@ -227,7 +227,7 @@
 					<lb facs="#facs_6_l_11" n="N002"/>change?
 				</p>
 				<p>
-					<lb facs="#facs_6_l_12" n="N001"/>MCCARTHY: I think they become interested in décor. You
+					<lb facs="#facs_6_l_12" n="N001"/><persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/ny98ppU9jwS">MCCARTHY</persName>: I think they become interested in décor. You
 				</p>
 				<pb n="7"/>
 				<p>
@@ -3371,6 +3371,184 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/1fhVf6dCico]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q268147",
+        "type": "crm:E21_Person",
+        "label": "Mary McCarthy",
+        "description": "American writer (1912–1989)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/xESsPVvkLZT">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/xESsPVvkLZT",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:27:47.664Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/lEksV8Twab6",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/lEksV8Twab6/selector/textPosition/02Z4dbKSh8f",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9829,
+                "end": 9837,
+                "refinedBy": {
+                    "id": "/target/lEksV8Twab6/selector/textQuote/vKc9oK5FUsw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "MCCARTHY",
+                    "prefix": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tINTERVIEWER: What do you think of women writers, or\n\t\t\t\t\tdo you think the category \"woman writer\" should not be\n\t\t\t\t\tmade?\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t",
+                    "suffix": " Some women writers make it"
+                }
+            },
+            {
+                "id": "/target/lEksV8Twab6/selector/css/CRalRYdcuBD",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/xESsPVvkLZT]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q268147",
+        "type": "crm:E21_Person",
+        "label": "Mary McCarthy",
+        "description": "American writer (1912–1989)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ny98ppU9jwS">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ny98ppU9jwS",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:27:47.901Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/MLmZL72e3CC",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/MLmZL72e3CC/selector/textPosition/5RhgK5ck7SD",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 10452,
+                "end": 10460,
+                "refinedBy": {
+                    "id": "/target/MLmZL72e3CC/selector/textQuote/9QfdG6jWlTI",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "MCCARTHY",
+                    "prefix": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tINTERVIEWER: What is it that happens to make this\n\t\t\t\t\tchange?\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t",
+                    "suffix": " I think they become interested in décor"
+                }
+            },
+            {
+                "id": "/target/MLmZL72e3CC/selector/css/ylAgueDwiUQ",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ny98ppU9jwS]"
             }
         ]
     },
