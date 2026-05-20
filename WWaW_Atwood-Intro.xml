@@ -203,7 +203,7 @@
 					<lb facs="#facs_6_l_27" n="N001"/><persName key="Katherine Anne Porter" ref="http://www.wikidata.org/entity/Q236958" ana="webannotation:http://temp.lincsproject.ca/FWSqi0JdUH6">Katherine Anne Porter’s</persName> reply—“I think that’S very true and
 					<lb facs="#facs_6_l_28" n="N002"/>very right"—is by no means the only one possible. Some, such
 					<lb facs="#facs_6_l_29" n="N003"/>as <persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/0lmtmdFNbl1">Mary McCarthy</persName>, are clearly impatient with the question itself.
-					<lb facs="#facs_6_l_30" n="N004"/>McCarthy accepts some version of the "masculine" versus the
+					<lb facs="#facs_6_l_30" n="N004"/><persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/1fhVf6dCico">McCarthy</persName> accepts some version of the "masculine" versus the
 					<lb facs="#facs_6_l_31" n="N005"/>"feminine" sensibility, but assigns herself firmly with the former.
 				</p>
 				<p>
@@ -290,7 +290,7 @@
 					<lb facs="#facs_8_l_10" n="N010"/>ego, remarkable in a collection of such strong, assertive, individ-
 					<lb facs="#facs_8_l_11" n="N011"/>ual voices; others keep secrets; others fence with their considerable
 					<lb facs="#facs_8_l_12" n="N012"/>intelligence; others protect themselves with wit. Some recom-
-					<lb facs="#facs_8_l_13" n="N013"/>mend objectivity, McCarthy's "sense"; others, like Edna O'Brien,
+					<lb facs="#facs_8_l_13" n="N013"/>mend objectivity, <persName key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147" ana="webannotation:http://temp.lincsproject.ca/xDJQHAX9HuC">McCarthy</persName>'s "sense"; others, like Edna O'Brien,
 					<lb facs="#facs_8_l_14" n="N014"/>speak of necessary demons. It would be a brave person who would
 					<lb facs="#facs_8_l_15" n="N015"/>try to stuff these wonderful and various talents into one tidy box
 					<lb facs="#facs_8_l_16" n="N016"/>labelled “WW,” and expect that acronym to be definitive. Despite
@@ -3290,6 +3290,184 @@
         "type": "crm:E21_Person",
         "label": "Katherine Anne Porter",
         "description": "American journalist, essayist, short story writer, novelist, and political activist (1890–1980)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/1fhVf6dCico">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/1fhVf6dCico",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:14:05.280Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/vDFm3xkt72l",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/vDFm3xkt72l/selector/textPosition/0JBfG6AblSD",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9543,
+                "end": 9551,
+                "refinedBy": {
+                    "id": "/target/vDFm3xkt72l/selector/textQuote/OeOa0ajks2a",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "McCarthy",
+                    "prefix": "\n\t\t\t\t",
+                    "suffix": "accepts some version of the \"masculine\" versus the\n\t\t\t\t\t\"feminine\" sensibility, but assigns herself firmly with the former"
+                }
+            },
+            {
+                "id": "/target/vDFm3xkt72l/selector/css/baQrTmNoCto",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/1fhVf6dCico]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q268147",
+        "type": "crm:E21_Person",
+        "label": "Mary McCarthy",
+        "description": "American writer (1912–1989)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/xDJQHAX9HuC">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/xDJQHAX9HuC",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:14:05.534Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/zezGcRq4ln2",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/zezGcRq4ln2/selector/textPosition/Oq6UdLLMVW1",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 13481,
+                "end": 13489,
+                "refinedBy": {
+                    "id": "/target/zezGcRq4ln2/selector/textQuote/E31jmUEAvyb",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "McCarthy",
+                    "prefix": " Some recom-\n\t\t\t\t\tmend objectivity,",
+                    "suffix": "s \"sense\"; others, like Edna O'Brien,\n\t\t\t\t\tspeak of necessary demons"
+                }
+            },
+            {
+                "id": "/target/zezGcRq4ln2/selector/css/hoaPqj2UNDv",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/xDJQHAX9HuC]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q268147",
+        "type": "crm:E21_Person",
+        "label": "Mary McCarthy",
+        "description": "American writer (1912–1989)"
     },
     "P2_has_type": [
         "oa:identifying"
