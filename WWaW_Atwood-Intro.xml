@@ -309,7 +309,7 @@
 					<lb facs="#facs_8_l_27" n="N009"/>Erdrich. Nor are there many writers who are known for an explicit
 					<lb facs="#facs_8_l_28" n="N010"/>and self-aware examination of the more colonial features of the
 					<lb facs="#facs_8_l_29" n="N011"/>relationships between men as a group and women: no <persName key="Marilyn French" ref="http://www.wikidata.org/entity/Q271931" ana="webannotation:http://temp.lincsproject.ca/Le78Q6wjgyl">Marilyn</persName>
-					<lb facs="#facs_8_l_30" n="N012"/>French, <persName key="Marge Piercy" ref="http://dbpedia.org/resource/Marge_Piercy" ana="webannotation:http://temp.lincsproject.ca/zwOJN0PYxC7">no Marge Piercey</persName>, no Fay Weldon, no Adrienne Rich,
+					<lb facs="#facs_8_l_30" n="N012"/>French, <persName key="Marge Piercy" ref="http://dbpedia.org/resource/Marge_Piercy" ana="webannotation:http://temp.lincsproject.ca/zwOJN0PYxC7">no Marge Piercey</persName>, no <persName key="Fay Weldon" ref="http://www.wikidata.org/entity/Q239501" ana="webannotation:http://temp.lincsproject.ca/XP6SW4kzNjs">Fay Weldon</persName>, no Adrienne Rich,
 					<lb facs="#facs_8_l_31" n="N013"/>no Judith Rossner. Some of these omissions may be set down to
 					<lb facs="#facs_8_l_32" n="N014"/>the slowness characteristic of the mills of the gods and the editor
 					<lb facs="#facs_8_l_33" n="N015"/>of small magazines, a slowness which may account, too, for the
@@ -5078,6 +5078,95 @@
         "type": "crm:E21_Person",
         "label": "Marge Piercy",
         "description": "Marge Piercy (born March 31, 1936) is an American poet, novelist, and social activist. Her work includes Woman on the Edge of Time; He, She and It, which won the 1993 Arthur C. Clarke Award; and Gone to Soldiers, a New York Times Best Seller and sweeping historical novel set during World War II."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/XP6SW4kzNjs">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/XP6SW4kzNjs",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:20:10.207Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/ajCDoYlxnGo",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ajCDoYlxnGo/selector/textPosition/73yCt9gpbwk",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 14636,
+                "end": 14646,
+                "refinedBy": {
+                    "id": "/target/ajCDoYlxnGo/selector/textQuote/xMJQuUyoc9Q",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Fay Weldon",
+                    "prefix": " Nor are there many writers who are known for an explicit\n\t\t\t\t\tand self-aware examination of the more colonial features of the\n\t\t\t\t\trelationships between men as a group and women: no Marilyn\n\t\t\t\t\tFrench, no Marge Piercey, no",
+                    "suffix": " no Adrienne Rich,\n\t\t\t\t\tno Judith Rossner"
+                }
+            },
+            {
+                "id": "/target/ajCDoYlxnGo/selector/css/naNQeyemjyW",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/XP6SW4kzNjs]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q239501",
+        "type": "crm:E21_Person",
+        "label": "Fay Weldon",
+        "description": "British writer (1931–2023)"
     },
     "P2_has_type": [
         "oa:identifying"
