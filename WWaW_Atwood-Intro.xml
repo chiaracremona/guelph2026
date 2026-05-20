@@ -305,7 +305,7 @@
 					<lb facs="#facs_8_l_23" n="N005"/>Africa, there are none here from, for instance, India or Australia
 					<lb facs="#facs_8_l_24" n="N006"/>or Canada or Latin America: <persName key="Alice Munro" ref="http://www.wikidata.org/entity/Q234819" ana="webannotation:http://temp.lincsproject.ca/PqcYDsNbZbH">no Alice Munro</persName>, <persName key="Anita Desai" ref="http://www.wikidata.org/entity/Q268495" ana="webannotation:http://temp.lincsproject.ca/gSHxU0RoDOP">no Anita Desai</persName>,
 					<lb facs="#facs_8_l_25" n="N007"/><persName key="Isabel Allende" ref="http://www.wikidata.org/entity/Q83566" ana="webannotation:http://temp.lincsproject.ca/zpsp5O2tU7y">no Isabel Allende</persName>. As this assemblage is unisexual, so is it uni-
-					<lb facs="#facs_8_l_26" n="N008"/>colored: thus far <persName key="Toni Morrison" ref="http://www.wikidata.org/entity/Q72334" ana="webannotation:http://temp.lincsproject.ca/MtTKFY71wmW">no Toni Morrison</persName>, no Alice Walker, no Louise
+					<lb facs="#facs_8_l_26" n="N008"/>colored: thus far <persName key="Toni Morrison" ref="http://www.wikidata.org/entity/Q72334" ana="webannotation:http://temp.lincsproject.ca/MtTKFY71wmW">no Toni Morrison</persName>, <persName key="Alice Walker" ref="http://www.wikidata.org/entity/Q215868" ana="webannotation:http://temp.lincsproject.ca/ZRUSJX0xRal">no Alice Walker</persName>, no Louise
 					<lb facs="#facs_8_l_27" n="N009"/>Erdrich. Nor are there many writers who are known for an explicit
 					<lb facs="#facs_8_l_28" n="N010"/>and self-aware examination of the more colonial features of the
 					<lb facs="#facs_8_l_29" n="N011"/>relationships between men as a group and women: no Marilyn
@@ -4722,6 +4722,95 @@
         "type": "crm:E21_Person",
         "label": "Toni Morrison",
         "description": "African American novelist, essayist, and academic (1931–2019)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ZRUSJX0xRal">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ZRUSJX0xRal",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T19:18:36.759Z",
+    "creator": {
+        "id": "https://github.com/chiaracremona",
+        "type": "crm:E21_Person",
+        "name": "Chiara Cremona"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/0Sypao2A9yr",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/chiaracremona/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/0Sypao2A9yr/selector/textPosition/uZASqmqlqaH",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 14371,
+                "end": 14386,
+                "refinedBy": {
+                    "id": "/target/0Sypao2A9yr/selector/textQuote/rvStbHGa9R4",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "no Alice Walker",
+                    "prefix": " As this assemblage is unisexual, so is it uni-\n\t\t\t\t\tcolored: thus far no Toni Morrison,",
+                    "suffix": " no Louise\n\t\t\t\t\tErdrich"
+                }
+            },
+            {
+                "id": "/target/0Sypao2A9yr/selector/css/CjG4Sb4l2w1",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ZRUSJX0xRal]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q215868",
+        "type": "crm:E21_Person",
+        "label": "Alice Walker",
+        "description": "American author and activist (born 1944)"
     },
     "P2_has_type": [
         "oa:identifying"
